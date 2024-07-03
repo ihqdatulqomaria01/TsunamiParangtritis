@@ -1,0 +1,13 @@
+CRITICAL - 2024-06-17 22:31:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_kontak_penting.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_kontak_penting.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_kontak_penting', [], true)
+ 3 APPPATH\Views\v_template.php(100): view('v_kontak_penting')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\TsunamiTA\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\KontakPenting.php(13): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\KontakPenting->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KontakPenting))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
